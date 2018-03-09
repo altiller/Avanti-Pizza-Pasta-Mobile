@@ -1,0 +1,476 @@
+<html  height="100%">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Avanti Pizza & Pasta</title>
+	<link rel="stylesheet" href="themes/avanti.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile.structure-1.4.3.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
+</head>
+<body>
+	<div data-role="page" data-theme="a">
+		<div >
+			
+		</div>
+		<div data-role="content" data-theme="a">
+		<div  align="center"><img src="headermob.png" width="100%" border="0"></div >
+					<div data-role="collapsible-set" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
+		<br>
+                <div data-role="collapsible">
+                    <h1>Pizza</h1>
+					<table width="100%">
+						<tr><th align="center" colspan="4" id="itemName">Traditional Pizza<th></tr>
+						<tr id="itemPrice" align="center"><th width="25%">Slice</th><th width="25%">Small</th><th width="25%">Medium</th><th>Large</th>
+						<tr id="itemPrice" align="center"><th>$2.75</th><th>$9.99</th><th>$11.99</th><th>$13.99</th>
+						<tr><th align="center" colspan="4" id="itemName">Pizza Toppings<th></tr>
+						<tr id="itemPrice" align="center"><th>$0.75</th><th>$1.50</th><th>$1.75</th><th>$2.00</th>
+						</table>
+                     <table width="100%">
+						<tr><th align="center" colspan="3" id="itemName">Gluten Free Pizza<th></tr>
+						<tr id="itemPrice" align="center"><th>Small $11.99</th><th>Topping $1.50</th><th>Specialty $15.99</th></tr>
+						</table>
+						<br>
+                     <table width="100%">
+						<tr><th align="center" colspan="3" id="itemName">NEW YORKER SPECIAL</th></tr>
+						<tr><td colspan="3" id="itemDescr">Fresh mozzarella, tomato sauce, parmesan, extra virgin olive oil and fresh basil</td></tr>
+						<tr id="itemPrice"><th>Small-$13.99</th><th>Medium-$15.99</th><th>Large-$17.99</th></tr>
+						<tr><th align="center" colspan="3" id="itemName">BROOKLYN SPECIAL</th></tr>
+						<tr><td colspan="3" id="itemDescr">Pepperoni, roasted peppers, red onions, tomato sauce and mozzarella </td></tr>
+						<tr id="itemPrice"><th>Small-$13.99</th><th>Medium-$15.99</th><th>Large-$17.99</th></tr>
+						<tr><th align="center" colspan="3" id="itemName">MULLBERRY STREET</th></tr>
+						<tr><td colspan="3" id="itemDescr">Italian sausage, roasted peppers, red onions, fresh tomatoes, mozzarella & feta cheese</td></tr>
+						<tr id="itemPrice"><th>Small-$13.99</th><th>Medium-$15.99</th><th>Large-$17.99</th></tr>
+						<tr><th align="center" colspan="3" id="itemName">SIGNATURE PIZZA</th></tr>
+						<tr><td colspan="3" id="itemDescr">Fresh spinach, fresh tomatoes, red onions, kalamata olives, mozzarella & gorgonzola</td></tr>
+						<tr id="itemPrice"><th>Small-$13.99</th><th>Medium-$15.99</th><th>Large-$17.99</th></tr>
+						<tr><th align="center" colspan="3" id="itemName">Dl POLLO</th></tr>
+						<tr><td colspan="3" id="itemDescr">Chicken breast, roasted garlic, tomato sauce, roasted peppers, mozzarella & parmesan</td></tr>
+						<tr id="itemPrice"><th>Small-$13.99</th><th>Medium-$15.99</th><th>Large-$17.99</th></tr>
+						<tr><th align="center" colspan="3" id="itemName">PORTOBELLO</th></tr>
+						<tr><td colspan="3" id="itemDescr">Portobello mushroom, sun-dried tomatoes, red onions, olive oil, mozzarella </td></tr>
+						<tr id="itemPrice"><th>Small-$13.99</th><th>Medium-$15.99</th><th>Large-$17.99</th></tr>
+						<tr><th align="center" colspan="3" id="itemName">QUATTRO FORMAGGIO</th></tr>
+						<tr><td colspan="3" id="itemDescr">Four cheese pizza - mozzarella, parmesan, ricotta and gorgonzola </td></tr>
+						<tr id="itemPrice"><th>Small-$13.99</th><th>Medium-$15.99</th><th>Large-$17.99</th></tr>
+						<tr><th align="center" colspan="3" id="itemName">BBQ CHICKEN</th></tr>
+						<tr><td colspan="3" id="itemDescr">BBQ Chicken, red onions, mozzarella and bacon</td></tr>
+						<tr id="itemPrice"><th>Small-$13.99</th><th>Medium-$15.99</th><th>Large-$17.99</th></tr>
+						<tr><th align="center" colspan="3" id="itemName">MEDITERRANEO PIZZA</th></tr>
+						<tr><td colspan="3" id="itemDescr">Roasted peppers, artichokes, sun-dired tomatoes, basil pesto, feta cheese & mozzarella</td></tr>
+						<tr id="itemPrice"><th>Small-$13.99</th><th>Medium-$15.99</th><th>Large-$17.99</th></tr>
+						<tr><th align="center" colspan="3" id="itemName">ALFREDO PIZZA</th></tr>
+						<tr><td colspan="3" id="itemDescr">Alfredo sauce, mozzarella, chicken and broccoli</td></tr>
+						<tr id="itemPrice"><th>Small-$13.99</th><th>Medium-$15.99</th><th>Large-$17.99</th></tr>
+						<tr><th align="center" colspan="3" id="itemName">ARUGULA</th></tr>
+						<tr><td colspan="3" id="itemDescr">Mozzarella cheese, fresh tomatoes, basil pesto topped with chilled arugula leaves drizzled with balsamic vinaigrette and olive oil. </td></tr>
+						<tr id="itemPrice"><th>Small-$14.99</th><th>Medium-$16.99</th><th>Large-$18.99</th></tr>
+						<tr><th align="center" colspan="3" id="itemName">SPINACH & RICOTTA</th></tr>
+						<tr><td colspan="3" id="itemDescr">Spinach, ricotta, mozzarella, garlic and extra virgin olive oil </td></tr>
+						<tr id="itemPrice"><th>Small-$14.99</th><th>Medium-$16.99</th><th>Large-$18.99</th></tr>
+						<tr><th align="center" colspan="3" id="itemName">PENNE A LA VODKA PIZZA</th></tr>
+						<tr><td colspan="3" id="itemDescr">Penne a la vodka over a thin and crispy crust topped with mozzarella</td></tr>
+						<tr id="itemPrice"><th>Small-$14.99</th><th>Medium-$16.99</th><th>Large-$18.99</th></tr>
+						<tr><th align="center" colspan="3" id="itemName">AVANTI'S SPECIAL</th></tr>
+						<tr><td colspan="3" id="itemDescr">Pepperoni, sausage, mushrooms, green peppers and onions</td></tr>
+						<tr id="itemPrice"><th>Small-$14.99</th><th>Medium-$16.99</th><th>Large-$18.99</th></tr>
+						<tr><th align="center" colspan="3" id="itemName">MEAT LOVERS PIZZA</th></tr>
+						<tr><td colspan="3" id="itemDescr">Pepperoni, sausage meatball, ham and bacon </td></tr>
+						<tr id="itemPrice"><th>Small-$14.99</th><th>Medium-$16.99</th><th>Large-$18.99</th></tr>
+						<tr><th align="center" colspan="3" id="itemName">VEGGIE LOVERS PIZZA</th></tr>
+						<tr><td colspan="3" id="itemDescr">Tomatoes, spinach, broccoli, mushrooms and black olives </td></tr>
+						<tr id="itemPrice"><th>Small-$14.99</th><th>Medium-$16.99</th><th>Large-$18.99</th></tr>
+					</table>
+                </div>
+                <div data-role="collapsible">
+                    <h1>Calzones & Strombolis</h1>
+                     <table width="100%">
+						<tr><th align="center" id="itemName">Cheese Calzone</th><th id="itemPrice">$7.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Ricotta and mozzarella cheese </td></tr>
+						<tr><th align="center" id="itemName">Spinach Calzone</th><th id="itemPrice">$8.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Spinach, ricotta and mozzarella cheese </td></tr>
+						<tr><th align="center" id="itemName">Ham and Cheese Calzone</th><th id="itemPrice">$8.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Ham, ricotta and mozzarella cheese </td></tr>
+						<tr><th align="center" id="itemName">Stromboli Calzone</th><th id="itemPrice">$9.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Mozzarella cheese, pepperoni and sausage</td></tr>
+						<tr><th align="center" id="itemName">Steak Stromboli Calzone</th><th id="itemPrice">$9.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Juicy Philly Steak and mozzarella cheese </td></tr>
+						<tr><th align="center" id="itemName">Vegie Calzone</th><th id="itemPrice">$9.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Spinach, broccoli, mushrooms, fresh tomatoes, ricotta and mozzarella cheese </td></tr>
+						<tr><th align="center" id="itemName">Extra Topping</th><th id="itemPrice">$1.50</th></tr>
+					</table>
+                </div>
+                <div data-role="collapsible">
+                    <h1>Appetizers</h1>
+                     <table width="100%">
+						<tr><th align="center" id="itemName">Mozzarella Sticks</th><th id="itemPrice">$5.99</th></tr>
+						<tr><th align="center" id="itemName">Jalapeno poppers</th><th id="itemPrice">$5.99</th></tr>
+						<tr><th align="center" id="itemName">Onion Rings</th><th id="itemPrice">$4.99</th></tr>
+						<tr><th align="center" id="itemName">Homemade Bruschetta</th><th id="itemPrice">$7.99</th></tr>
+						<tr><th align="center" id="itemName">Fried Calamari</th><th id="itemPrice">$8.99</th></tr>
+						<tr><th align="center" id="itemName">Fried Shrimps</th><th id="itemPrice">$8.99</th></tr>
+						<tr><th align="center" id="itemName">Chicken Fingers</th><th id="itemPrice">$8.99</th></tr>
+						<tr><th align="center" id="itemName">French Fries</th><th id="itemPrice">$3.99</th></tr>
+						<tr><th align="center" id="itemName">Cheese Fries</th><th id="itemPrice">$4.99</th></tr>
+						<tr><th align="center" id="itemName">Garlic Bread</th><th id="itemPrice">$2.79</th></tr>
+						<tr><th align="center" id="itemName">Cheese Garlic Bread</th><th id="itemPrice">$3.79</th></tr>
+						<tr><th align="center" id="itemName">Garlic Rolls</th><th id="itemPrice">$2.99</th></tr>
+						<tr><th align="center" id="itemName">Side of Meatballs</th><th id="itemPrice">$4.99</th></tr>
+						<tr><th align="center" id="itemName">Side of Sausage</th><th id="itemPrice">$4.99</th></tr>
+						<tr><th align="center" id="itemName">Side of Vegetables</th><th id="itemPrice">$4.99</th></tr>
+						<tr><th align="center" id="itemName">Zuppa Di Clams</th><th id="itemPrice">$10.99</th></tr>
+						<tr><th align="center" id="itemName">Zuppa Di Mussels</th><th id="itemPrice">$10.99</th></tr>
+						<tr><th align="center" id="itemName">Buffalo Tenders</th><th id="itemPrice">$8.99</th></tr>
+						<tr><th align="center" id="itemName">12 Chicken Wings</th><th id="itemPrice">$8.99</th></tr>
+						<tr><th align="center" id="itemName">24 Chicken Wings</th><th id="itemPrice">$16.99</th></tr>
+					</table>
+                </div>
+                <div data-role="collapsible">
+                    <h1>Salads</h1>
+                    <table width="100%">
+						<tr><th align="center" id="itemName">Garden Salad</th><th id="itemPrice">$7.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Iceberg and romaine lettuce, hard boiled egg, tomato, onion, cucumber, carrots black olives and pepperoncini</td></tr>
+						<tr><td align="center" id="itemDescr">Add Chicken</td><th id="itemPrice">$4.00</th></tr>
+						<tr><td align="center" id="itemDescr">Add Shrimp</td><th id="itemPrice">$6.00</th></tr>
+						<tr><td align="center" id="itemDescr">Add Salmon</td><th id="itemPrice">$8.00</th></tr>
+						<tr><th align="center" id="itemName">Ceasar Salad</th><th id="itemPrice">$7.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Romaine lettuce, croutons & parmigiana cheese.</td></tr>
+						<tr><td align="center" id="itemDescr">Add Chicken</td><th id="itemPrice">$4.00</th></tr>
+						<tr><td align="center" id="itemDescr">Add Shrimp</td><th id="itemPrice">$6.00</th></tr>
+						<tr><td align="center" id="itemDescr">Add Salmon</td><th id="itemPrice">$8.00</th></tr>
+						<tr><th align="center" id="itemName">Antipasto Salad</th><th id="itemPrice">$8.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Garden salad, with ham, provolone cheese, salami & cappicola. </td></tr>
+						<tr><th align="center" id="itemName">Tuna Salad</th><th id="itemPrice">$8.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Garden salad with all white tuna fish salad. </td></tr>
+						<tr><th align="center" id="itemName">Chef's Salad</th><th id="itemPrice">$8.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Garden salad with ham, turkey & provolone cheese. </td></tr>
+						<tr><th align="center" id="itemName">Turkey & Cheese Salad</th><th id="itemPrice">$8.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Garden salad with turkey & provolone cheese.</td></tr>
+						<tr><th align="center" id="itemName">Greek Salad</th><th id="itemPrice">$8.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Romaine lettuce, tomato, onions, cucumbers, kalamata olives & feta cheese.</td></tr>
+						<tr><th align="center" id="itemName">Mediterranean Salad</th><th id="itemPrice">$8.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Garden salad, salami, mozzarella, artichoke hearts, gorgonzola cheese. </td></tr>
+						<tr><th align="center" id="itemName">Caprese Salad</th><th id="itemPrice">$8.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Original buffalo mozzarella, tomato, gardens, balsalmic vinaigrette, basil & fresh pepper.</td></tr>
+						<tr><th align="center" id="itemName">Gorgonzola Salad</th><th id="itemPrice">$8.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Garden salad topped with gorgonzola cheese.</td></tr>
+						<tr><th align="center" id="itemName">Baby Arugula Salad</th><th id="itemPrice">$9.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Our signature salad. Crunchy combination of fresh baby arugula, endive, radicchio, and chives topped with diced grilled chicken breast. Perfected with balsamic vinaigrette drizzle.</td></tr>
+						<tr><td align="center" id="itemDescr">Add Chicken</td><th id="itemPrice">$4.00</th></tr>
+						<tr><td align="center" id="itemDescr">Add Shrimp</td><th id="itemPrice">$6.00</th></tr>
+						<tr><td align="center" id="itemDescr">Add Salmon</td><th id="itemPrice">$8.00</th></tr>
+						<tr><th align="center" id="itemName">Crispy Chicken Salad</th><th id="itemPrice">$9.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Garden salad topped with sliced crispy chicken.</td></tr>
+						<tr><th align="center" id="itemName">Pasta Salad with Grilled Chicken</th><th id="itemPrice">$9.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Grilled chicken, aldente pasta & fresh vegetables in a raspberry vinaigrette dressing. </td></tr>
+						<tr><td colspan="2" id="itemDescr">SALADS SERVED WITH GARLIC ROLLS & CHOICE OF DRESSING: </td></tr>
+						<tr><td colspan="2" id="itemDescr">CREAMY ITALIAN, ITALIAN, OIL & VINEGAR, GREEK, CAESAR, RANCH, FRENCH, BLUE CHEESE, THOUSAND ISLAND, HONEY MUSTARD, BALSAMIC VINAIGRETTE </td></tr>
+						<tr><th align="center" id="itemName">Side Garden Salad</th><th id="itemPrice">$3.99</th></tr>
+						<tr><th align="center" id="itemName">Side Ceasar Salad</th><th id="itemPrice">$3.99</th></tr>
+					</table>
+					
+                </div>
+				<div data-role="collapsible">
+                    <h1>Pasta Dishes</h1>
+                    <table width="100%">
+						<tr><td colspan="2" id="itemDescr" align="center">PASTA DISHES SERVED WITH GARLIC ROLLS & SOUP OR SALAD </td></tr>
+						<tr><th align="center" id="itemName">Spaghetti, Linguini or Penne  With Tomato Sauce</th><th id="itemPrice">$11.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">All time favorite with a hearty sauce. Our exclusive blend from our own family recipe, lavished over a steamy bed of pasta. </td></tr>
+						<tr><td align="center" id="itemDescr">Add Meatballs, Sausage or Meatsauce</td><th id="itemPrice">$4.00</th></tr>
+						<tr><th align="center" id="itemName">Ravioli</th><th id="itemPrice">$12.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">An old Italian tradition, round shaped tender pasta, filled with a special blend of ricotta cheese, covered with our own tomato sauce, melted mozzarella & parmesan cheese. </td></tr>
+						<tr><th align="center" id="itemName">Manicotti</th><th id="itemPrice">$12.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Delicate tube shaped pasta stuffed with rich ricotta cheese, covered with a thick tomato sauce, melted mozzarella & parmesan cheese. </td></tr>
+						<tr><th align="center" id="itemName">Stuffed Shells</th><th id="itemPrice">$12.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Delicate tube shaped pasta stuffed with rich ricotta cheese, covered over with thick tomato sauce, melted mozzarella & parmesan cheese. </td></tr>
+						<tr><th align="center" id="itemName">Baked Zitti</th><th id="itemPrice">$12.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Penne pasta covered with a mixture of rich ricotta, tomato sauce, melted mozzarella & parmesan.</td></tr>
+						<tr><th align="center" id="itemName">Lasagna</th><th id="itemPrice">$13.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Three layers of tender pasta with creamy ricotta, ground beef, romano cheese, zesty tomato sauce, topped off with melted mozzarella cheese. </td></tr>
+						<tr><th align="center" id="itemName">Tour of Italy</th><th id="itemPrice">$15.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Sample the best of italian cuisine in one plate. Delicious combination of lasagna, cheese ravioli
+						 and stuffed shell, baked with our signature marinara sauce and mozzarella cheese.</td></tr>
+						<tr><th align="center" id="itemName">Penne Ala Vodka</th><th id="itemPrice">$15.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Penne pasta with a delicious pink sauce, <br>Add Chicken-$4.00 or Shrimp (6 pieces)-$6.00</td></tr>
+						<tr><th align="center" id="itemName">Fettucini Alfredo</th><th id="itemPrice">$15.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Egg battered pasta with our homemade alfredo sauce, <br>Add Chicken-$4.00 or Shrimp (6 pieces)-$6.00</td></tr>
+						<tr><th align="center" id="itemName">Chicken Cacciatore</th><th id="itemPrice">$16.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Sauteed mushrooms, green peppers, onions, tomato sauce, chicken breast & choice of our delicious pasta.</td></tr>
+						<tr><th align="center" id="itemName">Linguini With Clams Sauce</th><th id="itemPrice">$17.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">White or red sauce. </td></tr>
+						<tr><th align="center" id="itemName">Mussels or Clams Fra Diavlo</th><th id="itemPrice">$18.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Steamed mussels or clams in a spicy marinara sauce on top of your choice of pasta.</td></tr>
+						<tr><th align="center" id="itemName">Shrimp Fra Diavlo</th><th id="itemPrice">$18.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Sauteed shrimp in a spicy marinara sauce, topped with your choice of pasta.</td></tr>
+						<tr><td colspan="2" id="itemDescr" align="center">PASTA DISHES SERVED WITH GARLIC ROLLS & SOUP OR SALAD </td></tr>
+					</table>
+                </div>
+				<div data-role="collapsible">
+                    <h1>Dinner Favorites</h1>
+					<table width="100%">
+						<tr><td colspan="2" id="itemDescr" align="center">DINNER DISHES SERVED WITH GARLIC ROLLS & SOUP OR SALAD </td></tr>
+						<tr><th align="center" id="itemName">Eggplant Parmigiana</th><th id="itemPrice">$14.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Breaded eggplant, deep fried and covered with our own thick hearty tomato sauce & topped with mozzarella cheese. Served with pasta of your choice.</td></tr>
+						<tr><th align="center" id="itemName">Chicken Parmigiana</th><th id="itemPrice">$15.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Breaded chicken, with our homemade sauce, topped with melted mozzarella cheese Served with pasta of your choice.</td></tr>
+						<tr><th align="center" id="itemName">Shrimp Parmigiana</th><th id="itemPrice">$16.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Breaded, golden, shrimp baked with our homemade red sauce, topped with melted mozzarella cheese. Served with pasta of your choice. </td></tr>
+						<tr><th align="center" id="itemName">Chicken Francese</th><th id="itemPrice">$16.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Egg battered, sauteed chicken breast with lemon herbs, butter & white wine sauce. Served with pasta of your choice</td></tr>
+						<tr><th align="center" id="itemName">Chicken Marsala</th><th id="itemPrice">$16.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Sauteed chicken breast with mushrooms & marsala wine sauce. Served with pasta of your choice.</td></tr> 
+						<tr><th align="center" id="itemName">Chicken Piccata</th><th id="itemPrice">$16.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Sauteed chicken breast with capers & white wine sauce. Served with pasta of your choice.</td></tr>
+						<tr><th align="center" id="itemName">Veal Parmigiana</th><th id="itemPrice">$17.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Tender breaded veal baked with our homemade sauce and topped with melted mozzarella, served with pasta of your choice. </td></tr>
+						<tr><th align="center" id="itemName">Veal Francese</th><th id="itemPrice">$18.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Egg battered tender veal with lemon, herbs, butter & wine sauce. Served with pasta of your choice.</td></tr>
+						<tr><th align="center" id="itemName">Veal Marsala</th><th id="itemPrice">$18.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Tender veal sauteed with mushrooms & Marsala wine sauce. Served with pasta of your choice.</td></tr>
+						<tr><th align="center" id="itemName">Salmon Francese</th><th id="itemPrice">$19.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Egg battered fresh salmon sauteed with lemon, herbs, butter &wine sauce. Served with pasta of your choice.</td></tr>
+					</table>	
+                </div>
+				<div data-role="collapsible">
+                    <h1>Burgers, Hot & Cold Heros</h1>
+                    <table width="100%">
+						<tr><td  id="itemDescr" align="center">HOT HEROS</td><th></th></tr>
+						<tr><th align="center" id="itemName">South Philly Steak</th><th id="itemPrice">$8.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Steak with cheese, sauteed onions, lettuce, tomato & mayo.</td></tr>
+						<tr><th align="center" id="itemName">House Philly Steak</th><th id="itemPrice">$8.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Steak with cheese, sauteed onions, green peppers & mushrooms.</td></tr>
+						<tr><th align="center" id="itemName">Italian Sausage Parmigiana</th><th id="itemPrice">$8.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Italian sausage on a toasted roll with homemade tomato sauce, melted mozzarella & parmesan cheese.</td></tr>
+						<tr><th align="center" id="itemName">Meatball Parmigiana</th><th id="itemPrice">$8.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Meatballs on a toasted roll with homemade tomato sauce, melted mozzarella & parmesan cheese.</td></tr>
+						<tr><th align="center" id="itemName">Chicken Philly</th><th id="itemPrice">$8.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Diced grilled chicken breast with cheese, lettuce, tomato & mayo.</td></tr>
+						<tr><th align="center" id="itemName">Chicken Parmigiana</th><th id="itemPrice">$8.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">White meat chicken fillet, deep fried to a golden brown on a toasted roll with homemade tomato sauce, melted mozzarella & parmesan cheese.</td></tr>
+						<tr><th align="center" id="itemName">Eggplant Parmigiana</th><th id="itemPrice">$8.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Breaded eggplant, deep fried to a golden brown on a toasted roll with homemade tomato sauce, melted mozzarella & parmesan cheese.</td></tr>
+						<tr><th align="center" id="itemName">Gyro</th><th id="itemPrice">$8.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Sliced gyro meat on a toasted pita with lettuce, tomato, onion & homemade cucumber sauce.</td></tr>
+						<tr><th align="center" id="itemName">Pizza Steak</th><th id="itemPrice">$8.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Juicy philly steak on a toasted roll with  italian sausage, homemade tomato sauce, melted mozzarella & parmesan cheese.</td></tr>
+						<tr><th align="center" id="itemName">Italian sausage with Peppers & Onions</th><th id="itemPrice">$8.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Famous favorite from the heart of new york's little italy. Toasted roll with sauteed onions, green peppers, with or without homemade tomato sauce, melted mozzarella & parmesan cheese.</td></tr>
+						<tr><th align="center" id="itemName">Crispy Chicken</th><th id="itemPrice">$9.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">White meat chicken fillet, deep fried to a golden brown and served on a toasted roll with lettuce, tomato, onion & mayo.</td></tr>
+						<tr><th align="center" id="itemName">Grilled Chicken & Fresh Mozzarella</th><th id="itemPrice">$9.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Grilled chicken, fresh mozzarella, tomato, roasted peppers, balsalmic & oil.</td></tr>
+						<tr><th align="center" id="itemName">Veal Parmigiana</th><th id="itemPrice">$9.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Breaded veal on a toasted roll with homemade tomato sauce, melted mozzarella & parmesan cheese.</td></tr>
+						<tr><td id="itemDescr" align="center">COLD HEROS</td><th></th></tr>
+						<tr><th align="center" id="itemName">BLT</th><th id="itemPrice">$7.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Timeless classic. Crispy bacon on toasted roll with lettuce, tomato & mayo.</td></tr>
+						<tr><th align="center" id="itemName">Fresh Mozzarella</th><th id="itemPrice">$7.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Vegetarian's delight! Fresh mozzarella on a toasted roll with tomato, basil & olive oil</td></tr>
+						<tr><th align="center" id="itemName">Ham & Cheese</th><th id="itemPrice">$7.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Italian ham & provolone with lettuce, tomato, onion, oil & vinegar.</td></tr>
+						<tr><th align="center" id="itemName">Turkey $ Cheese</th><th id="itemPrice">$7.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Thin sliced turkey breast, with provolone cheese, lettuce, tomato, оnion, oil and vinegar.</td></tr>
+						<tr><th align="center" id="itemName">Italian Combo</th><th id="itemPrice">$8.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Delightful combination of genoa salami, italian ham, capicolla, lettuce, tomato, onion, provolone cheese, oil & vinegar</td></tr>
+						<tr><th align="center" id="itemName">Tuna & Cheese</th><th id="itemPrice">$8.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">All white tuna fish & provolone cheese with lettuce, tomato, onion, oil & vinegar.</td></tr>
+						<tr><th align="center" id="itemName">Cold Cut Trio</th><th id="itemPrice">$8.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Ham, capicolla, prosciutto, fresh mozzarella, tomato, lettuce, roasted red peppers, balsamic & oil.</td></tr>
+						<tr><th align="center" id="itemName">Prosciutto & Mozzarella</th><th id="itemPrice">$8.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Prosciutto, fresh mozzarella, roasted peppers, balsalmic & vinegarettte.</td></tr>
+						<tr><td id="itemDescr" align="center">BURGERS</td><th></th></tr>
+						<tr><th align="center" id="itemName">Hamburger</th><th id="itemPrice">$8.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Juicy 1/2 lb burger served on Kaiser Roll with Lettuce, Tomato and Onion.</td></tr>
+						<tr><th align="center" id="itemName">Cheeseburger</th><th id="itemPrice">$9.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Juicy 1/2 lb burger topped with cheese of your choice, served on Kaiser Roll with Lettuce, Tomato and Onion.</td></tr>
+						<tr><th align="center" id="itemName">Blueburger</th><th id="itemPrice">$10.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Juicy 1/2 lb burger topped with melted gorgonzola cheese and sauted mushrooms on Kaiser Roll with Lettuce, Tomato and Onion.</td></tr>
+					</table>
+                </div>
+				<div data-role="collapsible">
+                    <h1>Homemade Soups</h1>
+                    <table width="100%">	
+						<tr><th colspan="2" align="center" id="itemName">Pasta Fajioli</th>
+						<tr><td colspan="2" id="itemDescr">Traditional Italian bean soup with blended vegetables, spices and herbs</td></tr>
+						<tr><th id="itemPrice">Cup $2.99</th><th id="itemPrice">Bowl $3.99</th></tr>
+						<tr><th colspan="2" align="center" id="itemName">Minestrone</th>
+						<tr><td colspan="2" id="itemDescr">Tomato based vegetable medley</td></tr>
+						<tr><th id="itemPrice">Cup $2.99</th><th id="itemPrice">Bowl $3.99</th></tr>
+						<tr><th colspan="2" align="center" id="itemName">Chicken Noodle</th>
+						<tr><td colspan="2" id="itemDescr">Classic chicken soup with bits of carrots, celery and fresh breast of chicken</td></tr>
+						<tr><th id="itemPrice">Cup $2.99</th><th id="itemPrice">Bowl $3.99</th></tr>
+					</table>
+                </div>
+				<div data-role="collapsible">
+                    <h1>Beverages</h1>
+                    <table width="100%">
+						<tr><th align="center" id="itemName">Coffee</th><th id="itemPrice">$2.29</th></tr>
+						<tr><th align="center" id="itemName">Hot Tea</th><th id="itemPrice">$2.29</th></tr>
+						<tr><th align="center" id="itemName">Bottled Water</th><th id="itemPrice">$2.29</th></tr>					
+						<tr><th align="center" id="itemName">Fountain Soda</th><th id="itemPrice">$2.29</th></tr>
+						<tr><td colspan="2" id="itemDescr">Coke, Diet coke, Sprite, Lemonade, Raspberry Tea, Root Beer</td></tr>
+						<tr><th align="center" id="itemName">2 Lt Soda</th><th id="itemPrice">$2.99</th></tr>
+						<tr><td colspan="2" id="itemDescr">Coke, Diet coke, Sprite</td></tr>
+						<tr><th align="center" id="itemName">Powerade</th><th id="itemPrice">$2.29</th></tr>
+						<tr><th align="center" id="itemName">Mineral Water Sparkling</th><th id="itemPrice">Lg $3.99</th></tr>
+					</table>
+                </div>
+				<div data-role="collapsible">
+                    <h1>Desserts</h1>
+                    <table width="100%">
+						<tr><th align="center" id="itemName">Brownie Bash</th><th id="itemPrice">$5.79</th></tr>
+						<tr><td colspan="2" id="itemDescr">Towering dessert with layers of cake, chocolate pate and brownies.</td></tr>					
+						<tr><th align="center" id="itemName">Baked Alaska</th><th id="itemPrice">$4.79</th></tr>
+						<tr><td colspan="2" id="itemDescr">Chocolate cake with vanilla, chocolate and strawberry ice cream. Topped with toasted meringue.</td></tr>
+						<tr><th align="center" id="itemName">Raspberry Chiffon</th><th id="itemPrice">$4.79</th></tr>
+						<tr><td colspan="2" id="itemDescr">Layers of cream cake, raspberry mousse, raspberry glaze sprinkled with toasted almonds</td></tr>
+						<tr><th align="center" id="itemName">New York Cheesecake</th><th id="itemPrice">$4.79</th></tr>
+						<tr><td colspan="2" id="itemDescr">Original cheesecake</td></tr>
+						<tr><th align="center" id="itemName">White Russian Mousse</th><th id="itemPrice">$5.79</th></tr>
+						<tr><td colspan="2" id="itemDescr">Delicious combination of white and dark mousse, liqueur soaked sponge cake, and topped with chocolate cake.</td></tr>
+						<tr><th align="center" id="itemName">Banana Foster</th><th id="itemPrice">$4.79</th></tr>
+						<tr><td colspan="2" id="itemDescr">Creamy stack of cake, fudge, banana and rum ice cream.Topped with banana mousse.</td></tr>
+						<tr><th align="center" id="itemName">Tiramisu</th><th id="itemPrice">$4.79</th></tr>
+						<tr><td colspan="2" id="itemDescr">Special family recipe which is light and rich at the same time! Espresso soaked sponge cake and whipped mascarpone cheese.</td></tr>
+						<tr><th align="center" id="itemName">Chocolate Mousse</th><th id="itemPrice">$4.79</th></tr>
+						<tr><td colspan="2" id="itemDescr">Light but intense Belgian chocolate mousse, with deep chocolate cake.</td></tr>
+						<tr><th align="center" id="itemName">Cannoli</th><th id="itemPrice">$3.79</th></tr>
+						<tr><td colspan="2" id="itemDescr">Sweet Italian Indulgence! Crispy shell filled with smooth cannoli cream with chocolate chips. Served with chocolate sauce and powdered sugar.</td></tr>
+
+					</table>
+                </div>
+				<div data-role="collapsible">
+                    <h1>Catering</h1>
+					<table width="100%">
+					
+						<tr><th align="center" id="caterName" colspan="2" > Pasta dishes</th></tr>
+						
+						<tr><th align="center" id="itemName" colspan="2" >Lasangna</th></tr>
+						<tr><th id="itemPrice">$50.00 (Half tray)</th><th id="itemPrice">$90.00 (Whole Tray)</th></tr>
+						<tr><th><th></tr>
+						<tr><th align="center" id="itemName" colspan="2" >Baked zitti</th></tr>
+						<tr><th id="itemPrice">$40.00 (Half tray)</th><th id="itemPrice">$70.00 (Whole Tray)</th></tr>
+						<tr><th><th></tr>
+						<tr><th align="center" id="itemName" colspan="2" >Manicotti</th></tr>
+						<tr><th id="itemPrice">$45.00 (Half tray)</th><th id="itemPrice">$80.00 (Whole Tray)</th></tr>
+						<tr><th><th></tr>
+						<tr><th align="center" id="itemName" colspan="2" >Stuffed shells</th></tr>
+						<tr><th id="itemPrice">$45.00 (Half tray)</th><th id="itemPrice">$80.00 (Whole Tray)</th></tr>
+						<tr><th><th></tr>
+						<tr><th align="center" id="itemName" colspan="2" >Pasta marinara</th></tr>
+						<tr><th id="itemPrice">$30.00 (Half tray)</th><th id="itemPrice">$50.00 (Whole Tray)</th></tr>
+						<tr><th><th></tr>
+						<tr><th align="center" id="itemName" colspan="2" >Pasta bolonese	</th></tr>
+						<tr><th id="itemPrice">$40.00 (Half tray)</th><th id="itemPrice">$70.00 (Whole Tray)</th></tr>
+						<tr><th><th></tr>
+						<tr><th align="center" id="itemName" colspan="2" >Pasta meatballs </th></tr>
+						<tr><th id="itemPrice">$40.00 (Half tray)</th><th id="itemPrice">$70.00 (Whole Tray)</th></tr>
+						<tr><th><th></tr>
+						<tr><th align="center" id="itemName" colspan="2" > Penne ala vodka</th></tr>
+						<tr><th id="itemPrice">$45.00 (Half tray)</th><th id="itemPrice">$80.00 (Whole Tray)</th></tr>
+						<tr><th><th></tr>
+						<tr><th align="center" id="itemName" colspan="2" > Linguini wtih clam sauce </th></tr>
+						<tr><th id="itemPrice">$65.00 (Half tray)</th><th id="itemPrice">$120.00 (Whole Tray)</th></tr>
+						<tr><th><th></tr>
+						<tr><th align="center" id="caterName" colspan="2" > Salads</th></tr>
+						
+						<tr><th align="center" id="itemName" colspan="2" > Garden salad</th></tr>
+						<tr><th id="itemPrice">$20.00 (Half tray)</th><th id="itemPrice">$35.00 (Whole Tray)</th></tr>
+						<tr><th><th></tr>
+						<tr><th align="center" id="itemName" colspan="2" > Antipasto salad</th></tr>
+						<tr><th id="itemPrice">$35.00 (Half tray)</th><th id="itemPrice">$60.00 (Whole Tray)</th></tr>
+						<tr><th><th></tr>
+						<tr><th align="center" id="itemName" colspan="2" > Gorgonzola salad</th></tr>
+						<tr><th id="itemPrice">$35.00 (Half tray)</th><th id="itemPrice">$60.00 (Whole Tray)</th></tr>
+						<tr><th><th></tr>
+						<tr><th align="center" id="itemName" colspan="2" > Mediterranean salad</th></tr>
+						<tr><th id="itemPrice">$35.00 (Half tray)</th><th id="itemPrice">$60.00 (Whole Tray)</th></tr>
+						<tr><th><th></tr>
+						<tr><th align="center" id="itemName" colspan="2" >Caesar salad</th></tr>
+						<tr><th id="itemPrice">$30.00 (Half tray)</th><th id="itemPrice">$50.00 (Whole Tray)</th></tr>
+						<tr><th><th></tr>
+						<tr><th align="center" id="itemName" colspan="2" >Grilled chicken caesar salad </th></tr>
+						<tr><th id="itemPrice">$35.00 (Half tray)</th><th id="itemPrice">$60.00 (Whole Tray)</th></tr>
+						<tr><th><th></tr>
+						<tr><th align="center" id="caterName" colspan="2" >Entrees</th></tr>
+						
+						<tr><th align="center" id="itemName" colspan="2" >Chicken parmigiana </th></tr>
+						<tr><th id="itemPrice">$55.00 (Half tray)</th><th id="itemPrice">$95.00 (Whole Tray)</th></tr>
+						<tr><th><th></tr>
+						<tr><th align="center" id="itemName" colspan="2" > Veal parmigiana</th></tr>
+						<tr><th id="itemPrice">$65.00 (Half tray)</th><th id="itemPrice">$120.00 (Whole Tray)</th></tr>
+						<tr><th><th></tr>
+						<tr><th align="center" id="itemName" colspan="2" >Eggplant parmigiana </th></tr>
+						<tr><th id="itemPrice">$50.00 (Half tray)</th><th id="itemPrice">$90.00 (Whole Tray)</th></tr>
+						<tr><th><th></tr>
+						<tr><th align="center" id="itemName" colspan="2" >Sausage & peppers </th></tr>
+						<tr><th id="itemPrice">$45.00 (Half tray)</th><th id="itemPrice">$80.00 (Whole Tray)</th></tr>
+						<tr><th><th></tr>
+						<tr><th align="center" id="itemName" colspan="2" >Meatballs & sausage </th></tr>
+						<tr><th id="itemPrice">$45.00 (Half tray)</th><th id="itemPrice">$80.00 (Whole Tray)</th></tr>
+						<tr><th><th></tr>
+						<tr><th align="center" id="itemName" colspan="2" >Chicken penne broccoli </th></tr>
+						<tr><th id="itemPrice">$55.00 (Half tray)</th><th id="itemPrice">$95.00 (Whole Tray)</th></tr>
+						<tr><th><th></tr>
+						<tr><th align="center" id="itemName" colspan="2" >Shrimp parmigiana </th></tr>
+						<tr><th id="itemPrice">$65.00 (Half tray)</th><th id="itemPrice">$120.00 (Whole Tray)</th></tr>
+						<tr><th><th></tr>
+						<tr><th align="center" id="itemName" colspan="2" >Shrimp scampi </th></tr>
+						<tr><th id="itemPrice">$70.00 (Half tray)</th><th id="itemPrice">$130.00 (Whole Tray)</th></tr>
+						<tr><th><th></tr>
+						<tr><th align="center" id="itemName" colspan="2" > Shrimp fra diavolo</th></tr>
+						<tr><th id="itemPrice">$70.00 (Half tray)</th><th id="itemPrice">$130.00 (Whole Tray)</th></tr>
+						<tr><th><th></tr>
+						<tr><th align="center" id="itemName" colspan="2" >Veal marsala </th></tr>
+						<tr><th id="itemPrice">$70.00 (Half tray)</th><th id="itemPrice">$130.00 (Whole Tray)</th></tr>
+						<tr><th><th></tr>
+						<tr><th align="center" id="itemName" colspan="2" >Veal franchese </th></tr>
+						<tr><th id="itemPrice">$70.00 (Half tray)</th><th id="itemPrice">$130.00 (Whole Tray)</th></tr>
+						<tr><th><th></tr>
+						<tr><th align="center" id="itemName" colspan="2" >Chicken marsala </th></tr>
+						<tr><th id="itemPrice">$60.00 (Half tray)</th><th id="itemPrice">$110.00 (Whole Tray)</th></tr>
+						<tr><th><th></tr>
+						<tr><th align="center" id="itemName" colspan="2" > Chicken franchese</th></tr>
+						<tr><th id="itemPrice">$60.00 (Half tray)</th><th id="itemPrice">$110.00 (Whole Tray)</th></tr>
+						<tr><th><th></tr>
+						<tr><th align="center" id="caterName" colspan="2" > Breads</th></tr>
+						
+						
+						<tr><th align="center" id="itemName" colspan="2" > Garlic rolls</th></tr>
+						<tr><th id="itemPrice">$8.00 (Half tray)</th><th id="itemPrice">$15.00 (Whole Tray)</th></tr>
+						<tr><th><th></tr>
+						<tr><th align="center" id="itemName" colspan="2" > Plain rolls</th></tr>
+						<tr><th id="itemPrice">$8.00 (Half tray)</th><th id="itemPrice">$15.00 (Whole Tray)</th></tr>
+						<tr><th><th></tr>
+						<tr><th align="center" id="itemName" colspan="2" >Garlic bread </th></tr>
+						<tr><th id="itemPrice">$8.00 (Half tray)</th><th id="itemPrice">$15.00 (Whole Tray)</th></tr>
+						<tr><th><th></tr>
+						<tr><th align="center" id="itemName" colspan="2" >Cheese garlic bread </th></tr>
+						<tr><th id="itemPrice">$10.00 (Half tray)</th><th id="itemPrice">$18.00 (Whole Tray)</th></tr>
+						<tr><th><th></tr>
+						
+		</table>
+	
+		
+	</div>
+			</div>
+		</div>
+		<br>	
+		<div>
+			<a data-role="button" data-transition="slide" href="index.html">Home</a>
+         </div>
+		
+		<div class="vysota">
+			<footer data-role="footer" data-theme="a">
+
+				<div align="center" style="font-color: white; font-size: 150%;">
+				<a href="tel://561-469-7323">561-469-7323</a></div>
+				<div align="center" style="font-size: 120%;">Dine-in   Delivery   Take-out</div>
+				
+			</footer>
+		</div>
+	
+	</div>
+</body>
+</html>
